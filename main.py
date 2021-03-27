@@ -52,7 +52,6 @@ def main():
     db_sess.add(cooker)
     db_sess.commit()
 
-    app.run()
 
 
 if __name__ == '__main__':
